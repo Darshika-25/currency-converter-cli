@@ -1,8 +1,11 @@
 {
-  "name": "project04_currency_converter",
+  "name": "@darshika.dev/currconv",
   "version": "1.0.0",
   "description": "This is Cli currency converter application",
   "main": "index.js",
+  "bin": {
+    "currconv": "index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
